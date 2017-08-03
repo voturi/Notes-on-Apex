@@ -1,0 +1,3 @@
+Notes:
+Future methods can not take standard or custome objects as arguments. Instead, pass IDs of the objects and query 
+objects inside the methods to make updates. 
