@@ -1,0 +1,13 @@
+Order of Execution
+1. System Validations ( Req Fields, Field Formats etc)
+2. Before Triggers
+3. Custom Validation Rules are checked
+4. After Triggers
+5. Assignment Rules 
+6. Auto Response Rules
+7. WorkFlow Rules are Executed
+7a. If field update is part of WF, then before trigger and after triggers are executed again
+8. Escalation Rules
+9. Parent Roll Up Summary or Cross Object Formulas
+10. Criteria Based Sharing Rules
+11. Any Post Commit Logic ( Eg, sending emails etc)      
